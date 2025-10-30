@@ -1,0 +1,32 @@
+# === Models ===
+BALL_MODEL_PATH: "c:\\Users\\PC\\Downloads\tennis-tracker\\Tennis ball model\\weights\\best.pt"
+PEOPLE_MODEL_PATH: "c:\\Users\\PC\\Downloads\\tennis-tracker\\Player and Offical model\\weights\\last.pt"
+COURT_MODEL_PATH: "c:\\Users\\PC\\Downloads\tennis-tracker\\Court model\\weights\\last.pt"
+
+POSE_MODEL_PATH: "c:\\Users\\PC\\yolo11l-pose.pt"   # e.g. yolov8n-pose.pt or your own
+POSE_CONF: 0.15
+POSE_IMGSZ: 640
+SHOW_PLAYER_SKELETON: true
+# === Video IO ===
+VIDEO_PATH: "c:\\Users\\PC\\Downloads\\video.mp4"
+OUT_PATH:   "c:\\Users\\PC\\Downloads\\output.mp4"
+
+# === People classes (your flip fix kept) ===
+PLAYER_CLASS_IDX: 1   # Player=1
+OFFICIAL_CLASS_IDX: 0 # Official=0
+
+# === People inference ===
+PLAYER_CONF: 0.60
+PLAYER_IMGSZ: 960
+
+# === Ball tracker (unchanged behavior) ===
+CONF_ENTER: 0.10
+CONF_KEEP:  0.08
+IOU: 0.50
+IMG_SZ: 640
+SMOOTH_BETA: 0.6
+MAX_GAP: 6
+MAX_STEP_FRAC: 0.04  # 1/25
+
+# === Drawing ===
+LABEL: true

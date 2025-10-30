@@ -1,0 +1,10 @@
+ultralytics=8.2.0
+opencv-python=4.8.0
+numpy=1.25.0
+matplotlib=3.7.1
+torch=2.1.0
+torchvision=0.16.0
+yaml=0.2.5
+pandas=2.0.3
+tqdm=4.66.0
+scipy=1.11.0
